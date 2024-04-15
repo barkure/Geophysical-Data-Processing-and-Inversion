@@ -1,3 +1,4 @@
+# Description: Gauss-Seidel迭代法测试
 from gauss_seidel import gauss_seidel
 
 A = [[0.98, -0.05, -0.02],
