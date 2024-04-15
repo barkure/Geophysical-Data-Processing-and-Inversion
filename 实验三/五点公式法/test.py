@@ -1,9 +1,9 @@
-# Des
+# Description: 五点公式法测试
 import math
 from five_point import FivePoint
 
 x0 = 2
-h = 0.001
+h = 0.01
 f = lambda x: math.sin(x)
 
 df1 = FivePoint(f, x0, 'forward1', h)
